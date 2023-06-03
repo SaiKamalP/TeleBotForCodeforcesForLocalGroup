@@ -16,9 +16,15 @@ clicking any of which would first ask for a conformation message.
 Once confirmed, the message gets posted on the provided Telegram chat, by the bot.
 You can only inform about a contest 2 or 3 days before start( you can change this behaviour in js1.js).
 
-Standings and rating changes are psoted as an image.
+Standings and rating changes are psoted as an image on telegram.
+Example:
+For standings,
+![image](https://github.com/SaiKamalP/statsCodeforcesWebAndTelegramBot/assets/104264136/8d73c88b-be67-457d-92b0-e569da787e66)
+ 
+ For rating changes,
+ ![image](https://github.com/SaiKamalP/statsCodeforcesWebAndTelegramBot/assets/104264136/a0d806c2-8655-49f6-aadf-c7dc6897880f)
 
-
+The corrsponding images will get posted on telegram.
 
 Steps to setup:
       
