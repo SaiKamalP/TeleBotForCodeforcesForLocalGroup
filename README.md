@@ -35,7 +35,7 @@ Steps to setup:
       cd mkdir
       git clone https://github.com/SaiKamalP/TeleBotForCodeforcesForLocalGroup.git
       ls
-      cd <type the directory name shown in ls>
+      cd <type the directory name shown by ls>
       cd public_html
       ls
 Once you are on public_html directory, open telegram.js file
