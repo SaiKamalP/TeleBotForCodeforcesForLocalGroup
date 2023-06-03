@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <script src="js1.js"></script>
+        <script src="telegram.js"></script>
+
+        <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+        <script src="elementToBas64Img.js"></script>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css1.css" />
+        <!-- <script>
+            const urlParams = new URLSearchParams(window.location.search);
+            var v = parseInt(urlParams.get("v"));
+            v+=1;
+            var csslink=document.createElement("link");
+            csslink.rel="stylesheet";
+            csslink.href="css1.css?v="+v;
+            document.head.appendChild(csslink);
+            // setTimeout(()=>{
+            //     location.replace("index.html?v="+v);
+
+            // },60000);
+        </script> -->
+    </head>
+    <body>
+        <div class="top-space"></div>
+        <div class="contest-container" id="contest-container" >
+            <div class="contest-outer default-none" id="contest-template">
+                <div class="contest-name"><p>Codeforce Div.2</p></div>
+                <div class="contest-options">
+                    <div class="contest-time">12/05/2005 13:05 PM</div>
+                    <div class="contest-status">Running</div>
+                    <div class="contest-inform-btn">Inform</div>
+                    <div class="contest-postStandings-btn">Post Standings</div>
+                    <div class="contest-postRatingchanges-btn">Post Rating Changes</div>
+                </div>
+            </div>
+        </div>
+        <div class="standings-outer" id="standings-outer">
+            <div class="standings-contest-name"><p>Codeforces Div.2</p></div>
+            <div class="standings-container" id="standings-container">
+                <div class="standings-top-container">
+                    <div class="standings-top-rank"><p>Rank</p></div>
+                    <div class="standings-top-handle"><p>Handle</p></div>
+                    <div class="standings-top-points"><p>Points</p></div>
+                </div>
+                <div class="standings-individual-outer default-none" id="standings-individual-template">
+                    <div class="standings-individual-rank"><p>1(1200)</p></div>
+                    <div class="standings-individual-handle"><p>sai_kamal</p></div>
+                    <div class="standings-individual-points"><p>3475</p></div>
+            </div>  
+        </div>
+        </div>
+        <div class="top-space"></div>
+        <div class="ratingChanges-outer" id="ratingChanges-outer">
+            <div class="ratingChanges-contest-name"><p>Codeforces Div.2</p></div>
+            <divc class="ratingChanges-container" id="ratingChanges-container">
+                <div class="ratingChanges-top-bar">
+                    <div class="standings-top-rank"><p>Rank</p></div>
+                    <div class="standings-top-handle"><p>Handle</p></div>
+                    <div class="standings-top-points"><p>Points</p></div>
+                    <div class="ratingChange-top-delta"><p>&#916;</p></div>
+                    <div class="ratingChange-top-from"><p>From</p></div>
+                    <div class="ratingChange-top-arrow"><p>&rArr;</p></div>
+                    <div class="ratingChange-top-to"><p>To</p></div>
+                </div>
+                <div class="ratingChange-individual-outer default-none" id="ratingChange-individual-template">
+                    <div class="standings-individual-rank"><p>1(1200)</p></div>
+                    <div class="standings-individual-handle"><p>sai_kamal</p></div>
+                    <div class="standings-individual-points"><p></p></div>
+                    <div class="ratingChange-individual-delta"><p>+3475</p></div>
+                    <div class="ratingChange-individual-from"><p>3475</p></div>
+                    <div class="ratingChange-individual-arrow"><p>&rArr;</p></div>
+                    <div class="ratingChange-individual-to"><p>3475</p></div>
+                    <div class="ratingChange-individual-comment"><p></p></div>
+                </div>
+            </div>
+        </div>
+        <div class="top-space"></div>   
+    </body>
+</html>

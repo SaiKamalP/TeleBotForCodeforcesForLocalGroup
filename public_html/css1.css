@@ -1,0 +1,296 @@
+body{
+    margin:0px;
+    background: rgba(20,20,20);
+}
+*{
+    margin:0px;
+}
+
+
+.top-space{
+    height: 10vh;
+}
+.contest-container{
+    display:flex;
+    flex-direction: column;
+    width:1000px;
+    margin:auto;
+}
+.contest-outer{
+    height:100px;
+    margin-top:10px;
+    border: 1px solid rgb(134, 134, 134);
+    border-radius: 10px;
+    order:0;
+}
+.contest-name{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-top:5px;
+    color: rgb(206, 206, 206);
+    height: 30px;
+}
+.contest-options{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-around;
+}
+.contest-time{
+    color: wheat;
+    font-size: 20px;
+    margin-left: 10px;
+    width:180px;
+    text-align: center;
+}
+.contest-status{
+    color: wheat;
+    font-size: 20px;
+    margin-left: 10px;
+    width:150px;
+    text-align: center;
+}
+.contest-inform-btn{
+    color: wheat;
+    font-size: 20px;
+    margin-left: 10px;
+    width:150px;
+    text-align: center;
+}
+.contest-postStandings-btn{
+    color: wheat;
+    font-size: 20px;
+    margin-left: 10px;
+    width:150px;
+    text-align: center;
+}
+.contest-postRatingChanges-btn{
+    color: wheat;
+    font-size: 20px;
+    margin-left: 10px;
+    width:200px;
+    text-align: center;
+}
+
+
+
+.standings-outer{
+    width:1400px;
+    background:white;
+    margin: 0px auto;
+    margin-top:20px;
+    padding: 0.1px;
+}
+.standings-contest-name{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.standings-container{
+    display:flex;
+    margin-top: 10px;
+    flex-direction: column;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+}
+.standings-top-container{
+    display:flex;
+    flex-direction: row;
+    min-height: 40px;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+    background-color: rgb(215, 215, 215);
+    padding-top: 3px;
+}
+
+.standings-top-rank{
+    font-size: 22px;
+    width:100px;
+    height: 25px;
+    margin-left:10px;
+    text-align: center;
+}
+.standings-top-handle{
+    font-size: 22px;
+    width:350px;
+    height: 25px;
+    margin-left:10px;
+    text-align: center;
+    color:black;
+}
+.standings-top-points{
+    font-size: 22px;
+    width:80px;
+    height: 25px;
+    margin-left:10px;
+    text-align: center;
+}
+.standings-top-problem-tag{
+    font-size: 22px;
+    min-height: 25px;
+    flex-grow: 1;
+    width: 0px;
+    text-align: center;
+}
+
+.standings-individual-outer{
+    height:50px;
+    border:1px solid rgb(94, 94, 94);
+    border-radius: 10px;
+    margin-top: 3px;
+    display:flex;
+    align-items: center;
+}
+.standings-individual-rank{
+    font-size: 22px;
+    width: 100px;
+    margin-left: 10px;
+    text-align: center;
+}
+.standings-individual-handle{
+    font-size: 22px;
+    width: 350px;
+    margin-left: 10px;
+    text-align: center;
+    font-weight:bold;
+}
+.standings-individual-points{
+    font-size: 22px;
+    width: 80px;
+    margin-left: 10px;
+    text-align: center;
+}
+.standings-individual-problem-status{
+    font-size: 22px;
+    width: 0px;
+    flex-grow: 1;
+    text-align: center;
+    color:green;
+    font-weight: bold;
+}
+
+
+
+
+.ratingChanges-outer{
+    background:white;
+    width: 1400px;
+    margin:auto;
+    padding: 0.1px;
+}
+
+
+.ratingChanges-contest-name{
+    font-size: 24px;
+    text-align: center;
+    margin-top:20px;
+}
+.ratingChanges-container{
+    display:flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+}
+.ratingChanges-top-bar{
+    height:40px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.ratingChange-top-delta{
+    font-size: 22px;
+    width:80px;
+    height: 25px;
+    margin-left:10px;
+    text-align: center;
+}
+
+.ratingChange-top-from{
+    font-size: 22px;
+    width:80px;
+    height: 25px;
+    margin-left:10px;
+    text-align: center;
+}
+
+.ratingChange-top-arrow{
+    font-size: 22px;
+    width:10px;
+    height: 25px;
+    margin-left:10px;
+    text-align: center;
+}
+.ratingChange-top-to{
+    font-size: 22px;
+    width:80px;
+    height: 25px;
+    margin-left:10px;
+    text-align: center;
+}
+
+.ratingChange-individual-outer{
+    height:50px;
+    display:flex;
+    border:1px solid rgb(94, 94, 94);
+    border-radius: 10px;
+    margin-top: 3px;
+    align-items: center;
+}
+
+.ratingChange-individual-delta{
+    font-size: 22px;
+    width:80px;
+    height: 25px;
+    margin-left:10px;
+    text-align: center;
+    font-weight: bold;
+    color:green;
+}
+
+.ratingChange-individual-from{
+    font-size: 22px;
+    width:80px;
+    height: 25px;
+    margin-left:10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ratingChange-individual-arrow{
+    font-size: 22px;
+    width:10px;
+    height: 25px;
+    margin-left:10px;
+    text-align: center;
+}
+
+.ratingChange-individual-to{
+    font-size: 22px;
+    width:80px;
+    height: 25px;
+    margin-left:10px;
+    text-align: center;
+    font-weight: bold;
+}
+.ratingChange-individual-comment{
+    font-size: 20px;
+    width:0px;
+    flex-grow: 1;
+    height: 25px;
+    margin-left:10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
+
+.default-none{
+    display:none;
+}
