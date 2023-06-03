@@ -27,7 +27,7 @@ For standings,
  ![Screenshot from 2023-06-03 12-29-55](https://github.com/SaiKamalP/TeleBotForCodeforcesForLocalGroup/assets/104264136/d4df0e1c-dab9-46d7-b757-ebeb850bc41e)
 
 
-The corrsponding images will get posted on telegram.
+The corresponding images will get posted on telegram.
 
 Steps to setup:
       
