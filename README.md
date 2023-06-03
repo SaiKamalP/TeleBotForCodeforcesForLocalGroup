@@ -6,7 +6,7 @@ This gives a web interface, can be hosted locally, for commanding the bot to per
 
 Web interface:
   
-![image](https://github.com/SaiKamalP/statsCodeforcesWebAndTelegramBot/assets/104264136/2afa2318-4784-41af-bab5-c2a1eee47fe8)
+![image](https://github.com/SaiKamalP/[statsCodeforcesWebAndTelegramBot](https://github.com/SaiKamalP/TeleBotForCodefrocesLocalGroups.git)/assets/104264136/2afa2318-4784-41af-bab5-c2a1eee47fe8)
 
 Here a list of upcomming contests and 3 finished contests are displayed.
 The contests going to be held on the next 2 to 3 days are highilated.
@@ -19,10 +19,10 @@ You can only inform about a contest 2 or 3 days before start( you can change thi
 Standings and rating changes are psoted as an image on telegram.
 Example:
 For standings,
-![image](https://github.com/SaiKamalP/statsCodeforcesWebAndTelegramBot/assets/104264136/8d73c88b-be67-457d-92b0-e569da787e66)
+![image](https://github.com/SaiKamalP/[statsCodeforcesWebAndTelegramBot](https://github.com/SaiKamalP/TeleBotForCodefrocesLocalGroups.git)/assets/104264136/8d73c88b-be67-457d-92b0-e569da787e66)
  
  For rating changes,
- ![image](https://github.com/SaiKamalP/statsCodeforcesWebAndTelegramBot/assets/104264136/a0d806c2-8655-49f6-aadf-c7dc6897880f)
+ ![image](https://github.com/SaiKamalP/[statsCodeforcesWebAndTelegramBot](https://github.com/SaiKamalP/TeleBotForCodefrocesLocalGroups.git)/assets/104264136/a0d806c2-8655-49f6-aadf-c7dc6897880f)
 
 The corrsponding images will get posted on telegram.
 
@@ -30,7 +30,7 @@ Steps to setup:
       
       mkdir statsCodeforcesBot
       cd mkdir
-      git clone https://github.com/SaiKamalP/statsCodeforcesWebAndTelegramBot.git
+      git clone https://github.com/SaiKamalP/[statsCodeforcesWebAndTelegramBot.git](https://github.com/SaiKamalP/TeleBotForCodefrocesLocalGroups.git)
       ls
       cd <type the directory name shown in ls>
       cd public_html
