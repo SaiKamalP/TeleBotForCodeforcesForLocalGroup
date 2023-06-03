@@ -6,7 +6,7 @@ This gives a web interface, can be hosted locally, for commanding the bot to per
 
 Web interface:
   
-![image](https://github.com/SaiKamalP/[statsCodeforcesWebAndTelegramBot](https://github.com/SaiKamalP/TeleBotForCodefrocesLocalGroups.git)/assets/104264136/2afa2318-4784-41af-bab5-c2a1eee47fe8)
+![image](https://github.com/SaiKamalP/TeleBotForCodefrocesLocalGroups/assets/104264136/2afa2318-4784-41af-bab5-c2a1eee47fe8)
 
 Here a list of upcomming contests and 3 finished contests are displayed.
 The contests going to be held on the next 2 to 3 days are highilated.
