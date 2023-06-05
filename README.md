@@ -30,6 +30,7 @@ For standings,
 The corresponding images will get posted on telegram.
 
 Steps to setup:
+   You need to setup on a local server like apache,live server...etc, for this to work.
       
       mkdir statsCodeforcesBot
       cd mkdir
